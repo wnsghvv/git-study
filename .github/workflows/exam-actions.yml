@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm i -g json
-      - run: bats -v
+      - run: json --version
